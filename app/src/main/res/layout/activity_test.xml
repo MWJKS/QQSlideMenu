@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test.TestActivity">
+
+    <com.example.lizhe.qqsilemenu.test.DragLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/width"
+            android:background="#ff0000" />
+        <TextView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/width"
+            android:background="#0000ff" />
+    </com.example.lizhe.qqsilemenu.test.DragLayout>
+</LinearLayout>
